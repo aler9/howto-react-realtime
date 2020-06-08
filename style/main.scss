@@ -1,0 +1,44 @@
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playing-field {
+    border: 4px solid rgb(80, 80, 80);
+
+    > div {
+        width: 500px;
+        height: 500px;
+        position: relative;
+    }
+}
+.player1, .player2 {
+    width: 100px;
+    height: 20px;
+    background: rgb(80, 80, 80);
+    position: absolute;
+
+    &.player1 {
+        top: 20px;
+    }
+    &.player2 {
+        top: 460px;
+    }
+}
+.ball {
+    width: 20px;
+    height: 20px;
+    background: rgb(80, 80, 80);
+    border-radius: 50%;
+    position: absolute;
+}

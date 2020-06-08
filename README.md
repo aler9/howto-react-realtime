@@ -17,7 +17,7 @@ This code implements an online version of the ping game, playable by multiple us
 * Server
   * Node: a standalone Javascript interpreter, that allows to build software with Javascript
   * Koa: an HTTP server for Node
-  * wss: a Websocket library for Node
+  * ws: a Websocket library for Node
 
 
 ## Installation
